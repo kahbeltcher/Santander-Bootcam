@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing:border-box;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(243,243,243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+
+}
+/* display:flex  quando você o utiliza em um elemento
+ ele vira um flex container, esse container fará com que os objetos dentro dele
+ fiquem em linha ocupando o espaço necessário.
+ align-items eixo vertical
+ align-content eixo horizontal
+*/
+.instagram-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+.instagram-phone img {
+    height: 40rem;
+    background-color: none;
+}
+.instagram-login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-height: 34rem;
+
+}
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    width: 100%;
+    padding: 1.1rem 0;
+    border: 1px solid lightgray ;
+}
+
+.group:nth-child(1){    
+    min-width: 19rem;
+}
+.instagram-logo {
+    padding-bottom: 1rem;
+    height: 4rem;
+}
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.login {
+    margin-top: 1.3rem;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background-color: #0095F6;
+    color: #ffff;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 3px solid #0095F6;
+}
+
+.logout  {
+    color: #0095F6;
+    margin-top: 1rem;
+    font-weight: 600;
+
+}
+.not-a-account{
+    color: rgb(160,160,160);
+    
+}
+.link-blue {
+    color: #0095F6;
+    font-weight: 600;
+
+}
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+
+}
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; /* mesmo espaço dos lados quanto no meio*/
+    align-items: center;/*colocar ao meio verticalmente */ 
+    padding: 1rem;
+    
+}
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    margin:5px
+}
+.app-download:nth-child(1){
+    
+    background-image: url('./imagens/apple-button.png');
+}
+.app-download:nth-child(2) {
+    background-image:url('./imagens/googleplay-button.png');
+}
+/*media queries*/
+
+@media(max-width:1024px) {
+    .instagram-wrap {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-login {
+        width: auto;
+        height: auto;       
+         align-items: center;
+    }
+    .download {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width:360px) {
+    .instagram-wrap {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-login {
+        width: auto;
+        height: auto;       
+         align-items: center;
+    }
+    .download {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:407px) {
+   
+    .group{
+        border:none;
+        background-color: transparent;
+
+    }
+    .instagram-wrap {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 8rem;
+    }
+    
+    .instagram-phone {
+        display: none;
+    }
+    .instagram-login {
+        width: auto;
+        height: auto;       
+        align-items: center;
+    }
+    .download {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
