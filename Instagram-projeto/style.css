@@ -18,9 +18,9 @@ body{
     line-height: 1;
 
 }
-/* display:flex  quando vocÃª o utiliza em um elemento
- ele vira um flex container, esse container farÃ¡ com que os objetos dentro dele
- fiquem em linha ocupando o espaÃ§o necessÃ¡rio.
+/* display:flex  quando você o utiliza em um elemento
+ ele vira um flex container, esse container fará com que os objetos dentro dele
+ fiquem em linha ocupando o espaço necessário.
  align-items eixo vertical
  align-content eixo horizontal
 */
@@ -115,7 +115,7 @@ body{
 .download {
     display: flex;
     width: 100%;
-    justify-content: space-evenly; /* mesmo espaÃ§o dos lados quanto no meio*/
+    justify-content: space-evenly; /* mesmo espaço dos lados quanto no meio*/
     align-items: center;/*colocar ao meio verticalmente */ 
     padding: 1rem;
     

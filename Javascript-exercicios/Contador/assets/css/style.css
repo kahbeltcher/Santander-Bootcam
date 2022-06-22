@@ -1,0 +1,44 @@
+body{
+    font-family: 'poppins';
+    font-size: 18px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+    background-color: rgb(192, 153, 228);
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(144, 58, 224);
+    height:350px ;
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+}
+button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(80, 9, 128);
+    background-color: rgb(247, 117, 214);
+    color: rgb(117, 28, 134);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.counter{
+    display: flex;
+}
+
+#currentNumber{
+    display: flex;
+    padding: 6px;
+    text-align: center;
+    margin: 4px;
+    font-size: 18px;
+}
