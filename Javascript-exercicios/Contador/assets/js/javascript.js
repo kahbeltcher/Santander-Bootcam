@@ -23,7 +23,7 @@ btn.onclick = function inscrement() {
 bt.onclick = function decrement() {
   currentNumber = currentNumber - 1;
   currentNumberWrapper.innerHTML = currentNumber;
-  if (currentNumber == 0 || currentNumber < 0) {
+  if (currentNumber === 0 || currentNumber < 0) {
     document.getElementById("currentNumber").style.color = "red";
   }
   if (currentNumber <= -10) {
