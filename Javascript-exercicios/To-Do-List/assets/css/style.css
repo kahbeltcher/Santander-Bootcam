@@ -1,41 +1,45 @@
 body{
     font-family: 'poppins';
     font-size: 18px;
-    color: #a725cf;
+    color: #21f579;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-color: #C7ED4C;
+    background-color: #fffff7;
 }
+
 form{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #acfa74;
+    background-color: #fffff7;
     height:200px ;
-    width: 300px;
+    max-width: 300px;
     border-radius: 10px;
     padding: 10px;
-    border: 2px solid #8d48c5;
+    border:1px solid #21f579;
 }
+
 input[type="text"]{
     height:22px;
     margin-bottom: 20px;
-    outline: none;
+    outline:none;
+    border: 1px solid#21f579;
 }
 button{
     height: 30px;
-    width: 100px;
+    max-width: 100px;
     border-radius: 5px;
-    border: 2px solid #9d48c5;
-    background-color: #a64ff7;
-    color: #ffffff;
+    border: none;
+    background-color: #21f579;
+    color: #3f3c3c;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
+    padding: 4px 8px 4px 8px;
 }
 #tasks {
     display: flex;
@@ -44,7 +48,8 @@ button{
     flex-direction: column;
     margin: auto;
     margin-top: 20px;
-    background-color:rgb(255, 255, 255) ;
+    background-color: #21f579;
     width: 300px;
     border-radius: 5px;
+    color: #3f3c3c;
 }
