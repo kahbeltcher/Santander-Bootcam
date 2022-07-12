@@ -10,10 +10,10 @@ const pessoaTwo = {
     nome:'Fabiola',
     idade:15,
 };
-const anima = {
+const animal = {
     nome:'Lana',
     idade:9,
     raca:'maltês',
 };
 console.log(calculaIdade.call(pessoaOne,30));
-console.log(calculaIdade.apply(anima,[3]));
+console.log(calculaIdade.apply(animal,[3]));
