@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
+.invalid-feedback {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    font-weight: 600;
+    color: #dc3545;
+}
+button{
+    margin: 5px;
+}
+
+.btn.btn-primary.mr-2 {
+    background-color: #7337E0!important;
+    border: none;
+}
+.btn.btn-secondary{
+    background-color:rgb(230, 208, 247);
+    color: #7337E0;
+    font-weight: 600;
+    border:1px solid #7337E0;
+}
+.btn.btn-danger{
+    background-color: #f55361;
+    border: none;
+}
+textarea {
+    resize: none;
+    border: 1px solid #7337E0!important;
+    color: #7337E0!important;
+  }
+.col-sm-2.col-form-label{
+    color: #7337E0;
+    font-weight: 600;
+}
+.form-group{
+    display: flex;
+    margin: 10px 0 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-sm-10 input {
+    border: 1px solid #7337E0;
+    color: #7337E0;
+    
+}
+
+.form-control:focus {
+    border-color:#d4c2f5;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+.crop{
+        color: #e0b937;
+}
+.navbar-brand{
+    padding-left: 10px;
+}
+.nav-link {
+    padding-top: 11px;
+}
+
+tr{
+    background-color: #d9d6f8;
+}
+
+.bg-dark{
+    background-color: #8B51E0!important;
+
+}
+td,th{
+    justify-content: center;
+    text-align: center;
+}
+h2{
+    color:  #7337E0;
+}
+table {
+   color: #7337E0!important;
+   --bs-table-striped-color: #7337E0!important;
+   font-weight: 500;
+   
+}
