@@ -4,10 +4,10 @@ let dados = {
     categoria:'',
     link:''
 }
-const atualizarDados = ()=> {
+const atualizarDados = () => {
 
     dados = {
-        titulo:document.getElementById('Titulo').value,
+        titulo:document.getElementById('titulo').value,
         link:document.getElementById('link').value,
         categoria:document.getElementById('categoria').value,
         ano:document.getElementById('ano').value
